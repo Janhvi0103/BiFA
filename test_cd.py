@@ -7,7 +7,8 @@ import argparse
 import logging
 import core.logger as Logger
 import os
-import numpy as npfrom misc.metric_tools import ConfuseMatrixMeter
+import numpy as np
+from misc.metric_tools import ConfuseMatrixMeter
 from models.loss import *
 from collections import OrderedDict
 import core.metrics as Metrics
