@@ -88,7 +88,7 @@ class CDDataset(Dataset):
         return A_path
 
 if __name__ == '__main__':
-    root_dir = '/kaggle/input/sample-clcd/Dataset_Sample/'
+    root_dir = '/kaggle/input/sample-clcd/Dataset_Sample'
     cddata = CDDataset(root_dir=root_dir)
     list_path = os.path.join(root_dir, 'list', 'train', '.txt')
     l = len(load_img_name_list)
